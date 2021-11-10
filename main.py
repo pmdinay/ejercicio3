@@ -13,7 +13,18 @@ alto = int(input("Introducir alto de la ventana: "))
 ancho = int(input("Introducir ancho de la ventana: "))
 size[0] = alto
 size[1] = ancho
-red = (255, 0, 0)
-#call main routine
-main2(size, titulo, red)
+
+print("Introducir valores entre 0 y 255")
+ColorRojo = int(input("Rojo: "))
+ColorVerde = int(input("Verde: "))
+ColorAzul = int(input("Azul: "))
+fondo = [ColorRojo, ColorVerde, ColorAzul]
+
+main2(size, titulo, fondo)
+
+
+
+
+
+
 
